@@ -49,7 +49,8 @@ namespace UnitTests.Models
             var result = myTest.Update(null);
 
             // Assert
-            Assert.AreEqual(null, myTest.PhoneID); 
+            //Assert.AreEqual("abc", myTest.PhoneID); 
+            Assert.AreEqual(null, myTest.PhoneID);
         }
 
         [TestMethod]
@@ -74,7 +75,7 @@ namespace UnitTests.Models
             var result = myTest.Update(myUpdate);
 
             // Assert
-           // Assert.AreEqual(myTestID, myTest.ID);
+            Assert.AreEqual(myTestID, myTest.ID);
         }
     }
 }
