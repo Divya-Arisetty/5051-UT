@@ -157,7 +157,7 @@ namespace UnitTests.Backend
             var oldItem = new LogModel();
             oldItem.ID = "ID";
             oldItem.PhoneID = "PhoneID";
-            oldItem.RecordedDateTime = DateTime.Parse("01/23/2019");
+            oldItem.RecordedDateTime = DateTime.Parse("23/01/2019");
             oldItem.Value = "Value";
 
 

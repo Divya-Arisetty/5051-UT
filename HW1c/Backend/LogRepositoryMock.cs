@@ -114,7 +114,7 @@ namespace HW1c.Backend
         public void Initialize()
         {
             dataset.Add(new LogModel { AppVersion = "1", PhoneID = "ABC", RecordedDateTime = DateTime.Now });
-            dataset.Add(new LogModel { AppVersion = "2", PhoneID = "MNO", RecordedDateTime = DateTime.Parse("01/23/2019") });
+            dataset.Add(new LogModel { AppVersion = "2", PhoneID = "MNO", RecordedDateTime = DateTime.Parse("23/01/2019") });
             dataset.Add(new LogModel { AppVersion = "3", PhoneID = "ZYX", RecordedDateTime = DateTime.Now.AddDays(-2) });
             dataset.Add(new LogModel { AppVersion = "3.3", PhoneID = "ZYXa", RecordedDateTime = DateTime.Now.AddYears(-1) });
         }
