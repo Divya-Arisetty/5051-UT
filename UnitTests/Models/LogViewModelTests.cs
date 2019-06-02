@@ -11,10 +11,14 @@ namespace UnitTests.Models
         public void LogViewModel_Instantiate_Default_Should_Pass()
         {
             // Arrange
+            // envoking the constructor will cover 60 % of the code, so no arrange is needed
 
-            // Act
+             // Act
+             var result = new LogViewModel();
 
             // Assert
+            Assert.IsNotNull(result);
+
 
         }
     }
