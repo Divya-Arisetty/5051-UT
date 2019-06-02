@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using HW1c.Models;
 
@@ -49,7 +49,7 @@ namespace UnitTests.Models
             var result = myTest.Update(null);
 
             // Assert
-            Assert.AreEqual("abc", myTest.PhoneID);
+            Assert.AreEqual(null, myTest.PhoneID); 
         }
 
         [TestMethod]
@@ -74,7 +74,7 @@ namespace UnitTests.Models
             var result = myTest.Update(myUpdate);
 
             // Assert
-            //Assert.AreEqual(myTestID, myTest.ID);
+           // Assert.AreEqual(myTestID, myTest.ID);
         }
     }
 }
