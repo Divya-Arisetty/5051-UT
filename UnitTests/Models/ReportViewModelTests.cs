@@ -21,19 +21,19 @@ namespace UnitTests.Models
           // Assert
            Assert.IsNotNull(result);
       }
-        //[TestMethod]
-        //public void ReportViewModel_NumberOfUsers_Get_Default_Should_Pass()
-        //{
-        //    // Arrange
-        //    var myTest = new ReportViewModel();
-        //    // Act
-        //    //var result = myTest.LogViewModel;
-        //    var resultUsers = myTest.NumberOfUsers;
+        [TestMethod]
+        public void ReportViewModel_NumberOfUsers_Get_Default_Should_Pass()
+       {
+        // Arrange
+              var myTest = new ReportViewModel();
+        // Act
+            var result = myTest.LogViewModel;
+             var resultUsers = myTest.NumberOfUsers;
 
-        //    // Assert
-        //   // Assert.IsNotNull(result);
-        //    Assert.IsNotNull(resultUsers);
-        //}
+        // Assert
+            Assert.IsNotNull(result);
+            Assert.IsNotNull(resultUsers);
+        }
         //  [TestMethod]
         //public void ReportViewModel_NumberOfUsers_Set_Default_Should_Pass()
         //{
