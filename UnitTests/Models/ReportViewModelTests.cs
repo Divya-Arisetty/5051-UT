@@ -34,18 +34,18 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
             Assert.IsNotNull(resultUsers);
         }
-        //  [TestMethod]
-        //public void ReportViewModel_NumberOfUsers_Set_Default_Should_Pass()
-        //{
-        //    // Arrange
-        //    var testReportViewModel = new ReportViewModel();
-        //    //Act
-        //    testReportViewModel.NumberOfUsers = 5;
-        //    var resultNumberOfUsers = testReportViewModel.NumberOfUsers;
-        //    // Assert
-        //    Assert.AreEqual(5, resultNumberOfUsers);
+       [TestMethod]
+        public void ReportViewModel_NumberOfUsers_Set_Default_Should_Pass()
+        {
+            // Arrange
+            var testReportViewModel = new ReportViewModel();
+            //Act
+            testReportViewModel.NumberOfUsers = 5;
+            var resultNumberOfUsers = testReportViewModel.NumberOfUsers;
+            // Assert
+            Assert.AreEqual(5, resultNumberOfUsers);
 
-        //}
+        }
 
         //[TestMethod]
         //public void ReportViewModel_LogViewModel_Get_Default_Should_Pass()
