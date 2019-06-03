@@ -8,22 +8,19 @@ namespace UnitTests.Models
     [TestClass]
     public class ReportViewModelTests
     {
-        [TestMethod]
-        public void TestMethod1()
+        
+       [TestMethod]
+        public void ReportViewModel_Instantiate_Default_Should_Pass()
         {
-        }
-        //[TestMethod]
-        //public void ReportViewModel_Instantiate_Default_Should_Pass()
-        //{
-        //    // Arrange
+          // Arrange
         //    // envoking the constructor will cover 60 % of the code, so no arrange is needed
 
-        //    // Act
+       // Act
         //    var result = new ReportViewModel();
 
-        //    // Assert
+          // Assert
         //    Assert.IsNotNull(result);
-        //}
+      }
         //[TestMethod]
         //public void ReportViewModel_NumberOfUsers_Get_Default_Should_Pass()
         //{
