@@ -13,13 +13,13 @@ namespace UnitTests.Models
         public void ReportViewModel_Instantiate_Default_Should_Pass()
         {
           // Arrange
-        //    // envoking the constructor will cover 60 % of the code, so no arrange is needed
+          // envoking the constructor will cover 60 % of the code, so no arrange is needed
 
-       // Act
-        //    var result = new ReportViewModel();
+         // Act
+          var result = new ReportViewModel();
 
           // Assert
-        //    Assert.IsNotNull(result);
+           Assert.IsNotNull(result);
       }
         //[TestMethod]
         //public void ReportViewModel_NumberOfUsers_Get_Default_Should_Pass()
