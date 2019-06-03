@@ -58,26 +58,26 @@ namespace UnitTests.Models
             Assert.IsNotNull(result);
         }
 
-        //[TestMethod]
-        //public void ReportViewModel_LogViewModel_Set_Default_Should_Pass()
-        //{
-        //  // Arrange
-        //      var testLogModel = new LogModel { PhoneID = "Phone" };
-        //      var myListTestLogModel = new List<LogModel>();
-        //      myListTestLogModel.Add(testLogModel);
+        [TestMethod]
+        public void ReportViewModel_LogViewModel_Set_Default_Should_Pass()
+        {
+          // Arrange
+              var testLogModel = new LogModel { PhoneID = "Phone" };
+              var myListTestLogModel = new List<LogModel>();
+              myListTestLogModel.Add(testLogModel);
 
-        //      var testLogViewModel = new LogViewModel();
-        //      testLogViewModel.LogList = myListTestLogModel;
+              var testLogViewModel = new LogViewModel();
+              testLogViewModel.LogList = myListTestLogModel;
 
-        //      var testReportViewModel = new ReportViewModel();
-        //    // Act
-        //    testReportViewModel.LogViewModel = testLogViewModel;
-        //    var result = testReportViewModel.LogViewModel.LogList;
+              var testReportViewModel = new ReportViewModel();
+            // Act
+            testReportViewModel.LogViewModel = testLogViewModel;
+            var result = testReportViewModel.LogViewModel.LogList;
 
 
-        //    // Assert
-        //    Assert.AreEqual("Phone", result[0].PhoneID);
-        //}
+            // Assert
+            Assert.AreEqual("Phone", result[0].PhoneID);
+        }
 
     }
 }
