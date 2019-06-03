@@ -21,5 +21,17 @@ namespace UnitTests.Models
 
 
         }
+        public void LogViewModel_Get_Default_Should_Pass()
+        {
+            // Arrange
+            var myTest = new LogViewModel();
+            // Act
+            var result = myTest.LogList;
+
+            // Assert
+            Assert.IsNotNull(result);
+
+
+        }
     }
 }
